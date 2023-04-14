@@ -1,0 +1,400 @@
+/* Search Bar */
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-control-underlined {
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    padding-left: 0;
+    color: black;
+}
+
+/* Style Font */
+.f-b {
+    font-weight: bolder;
+}
+
+.f-b700 {
+    font-weight: 700 !important;
+}
+
+.f-blk {
+    color: black !important;
+}
+
+.f-wht {
+    color: white !important;
+}
+
+.f-red-dark {
+    color: #5D4063;
+}
+
+.f-red {
+    color: #F74854;
+}
+
+.f-orange {
+    color: #FEBD01 !important;
+}
+
+/* Position */
+.justify {
+    display: block;
+    margin: auto;
+}
+
+.input {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.input2 {
+    /* border: 1px solid black; */
+    border-radius: 5px;
+}
+
+/* Border */
+.bdr-5 {
+    border-radius: 5px;
+}
+
+.bdr-10 {
+    border-radius: 10px;
+}
+
+.bdr-15 {
+    border-radius: 15px;
+}
+
+.bdr-20 {
+    border-radius: 20px;
+}
+
+.no-b {
+    border: none;
+}
+
+/* Post Page */
+.btn-tertiary {
+    color: #555;
+    padding: 0;
+    line-height: 40px;
+    width: 300px;
+    display: block;
+    border: 2px solid #555;
+}
+
+.btn-tertiary:hover,
+.btn-tertiary:focus {
+    color: #888;
+    border-color: #888;
+}
+
+.input-file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.input-file+.js-labelFile {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+/* Kategori */
+@media (max-width: 767px) {
+    .kategori {
+        margin-left: 14px !important;
+        margin-top: 10px !important;
+        margin-right: 15px !important;
+    }
+
+    .kategori1 {
+        margin-left: 14px !important;
+        margin-top: 10px !important;
+        margin-right: 15px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .test {
+        font-size: 10px !important;
+        color: black;
+    }
+}
+
+.select {
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 357px !important
+}
+
+@media (max-width: 767px) {
+    .m-l-15r {
+        margin-left: 50px;
+    }
+}
+
+.ktg-trendingTop {
+    background-color: #FEBD01 !important;
+    color: white !important;
+    font-size: 13px !important
+}
+
+.ktg-artikel {
+    background-color: #FEBD01 !important;
+    color: white !important;
+    padding: 3px 10px 3px 10px;
+    text-transform: uppercase
+}
+
+.info-trendingTop {
+    background-color: transparent !important;
+    color: white
+}
+
+/* Artikel */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.45px;
+}
+
+.non-hover:hover {
+    color: #FEBD01 !important;
+}
+
+.non-hover-white:hover {
+    color: white !important;
+}
+
+.hover-blk:hover {
+    color: black !important;
+}
+
+.vertical-line {
+    border-left: 0.5px black solid;
+    margin-right: -10px;
+    margin-left: 10px
+}
+
+.color-gradient1 {
+    background-color: #FEBD01 !important;
+}
+
+.capital {
+    text-transform: uppercase !important;
+}
+
+#more {
+    display: none;
+}
+
+/* Hover Images */
+.zoom-effect {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.kotak {
+    top: 0;
+    left: 0;
+}
+
+.kotak img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.zoom-effect:hover .kotak img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    border-radius: 5px;
+}
+
+.arrow {
+    transform: rotate(-45deg);
+    color: #FEBD01 !important
+}
+
+/* Margin */
+.-mt-5 {
+    margin-top: -5px !important;
+}
+
+.-mt-7 {
+    margin-top: -7px !important;
+}
+
+.-mt-10 {
+    margin-top: -10px !important;
+}
+
+.-mt-15 {
+    margin-top: -15px !important;
+}
+
+.-mt-20 {
+    margin-top: -20px !important;
+}
+
+.-mt-25 {
+    margin-top: -25px !important;
+}
+
+.-mb-13 {
+    margin-bottom: -13px !important;
+}
+
+.-mb-20 {
+    margin-bottom: -20px !important;
+}
+
+.-mr-10 {
+    margin-right: -10px !important;
+}
+
+.-mt-30 {
+    margin-top: -30px !important;
+}
+
+.-mb-50 {
+    margin-bottom: -50px !important;
+}
+
+.-ml-25 {
+    margin-left: 25px;
+}
+
+/* Font Size */
+.fs-15i {
+    font-size: 15px !important;
+}
+
+.fs-14i {
+    font-size: 14px !important;
+}
+
+.title-card {
+    color: #FEBD01 !important;
+    font-weight: 700 !important
+}
+
+.sub-kategori-card {
+    background-color: #FEBD01 !important;
+    color: white !important;
+    padding: 3px 10px 3px 10px;
+    text-transform: uppercase
+}
+
+.pengaturan-card {
+    background-color: #F6F8FC !important;
+    color: white !important;
+    padding: 8px 15px 8px 15px;
+    border: 1px solid #EEEEEE;
+}
+
+.kategori-title {
+    color: #FEBD01 !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important
+}
+
+.blur-text {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    height: 200px;
+    margin-top: -180px;
+    display: block;
+    position: relative;
+}
+
+#more {
+    display: none;
+}
+
+.tag-card {
+    background-color: white !important;
+    color: #AAAAAA !important;
+    border: 1px solid #AAAAAA !important;
+    padding: 4px 12px;
+    margin-top: 40px !important;
+}
+
+.tag-card1 {
+    background-color: #FEBD01 !important;
+    color: white !important;
+    padding: 4px 12px
+}
+
+.make-me-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 7em;
+}
+
+/* Image preview */
+.btn1-tertiary {
+    color: #555;
+    padding: 0;
+    line-height: 40px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    border: 2px solid #555;
+}
+
+.btn1-tertiary:hover,
+.btn1-tertiary:focus {
+    color: #888;
+    border-color: #888;
+}
+
+.input-file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.input-file+.js-labelFile {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.img-circular {
+    object-fit: cover;
+    object-position: center
+}
+
+h3:hover {
+    color: #FEBD01;
+}
+
+h6:hover {
+    color: #FEBD01;
+}
+
+.judul-hover:hover {
+    color: #FEBD01 !important;
+}
+
+.d-none-jquery {
+    display: none;
+}
